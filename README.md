@@ -2,4 +2,4 @@
  
 Paint, but real life.
 
-![Recording:](https://github.com/safekhawaja/virtual_paint/Screen-Recording-2020-08-05-at-3.gif.gif?raw=true "Title")
+![Screen-Recording-2020-08-05-at-3.gif)
