@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-frameWidth = 100
-frameHeight = 100
+frameWidth = 50
+frameHeight = 50
 cap = cv2.VideoCapture(0)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
@@ -13,7 +13,7 @@ def empty(a):
 
 
 cv2.namedWindow("HSV")
-cv2.resizeWindow("HSV", 100, 100)
+cv2.resizeWindow("HSV", 50, 50)
 cv2.createTrackbar("HUE Min", "HSV", 0, 179, empty)
 cv2.createTrackbar("HUE Max", "HSV", 179, 179, empty)
 cv2.createTrackbar("SAT Min", "HSV", 0, 255, empty)
